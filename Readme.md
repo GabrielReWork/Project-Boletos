@@ -1,5 +1,3 @@
-Claro! Aqui está o conteúdo formatado em Markdown para o seu README.md:
-
 ```markdown
 # Boletos Vencidos - SigeCloud API
 
