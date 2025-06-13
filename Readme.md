@@ -1,72 +1,44 @@
-```markdown
-# Boletos Vencidos - SigeCloud API
+# 🚀 Consulta de Boletos Vencidos - SigeCloud API
 
-Este projeto é um script simples que consulta a base de dados da API do SigeCloud para obter boletos vencidos. Ele retorna boletos com vencimento entre 3 dias antes e 5 dias após a data atual.
+![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
+![Status](https://img.shields.io/badge/Status-Em%20Produção-brightgreen)
 
----
+Script Node.js para consulta de boletos vencidos na API do SigeCloud, com filtro por período de vencimento (3 dias antes até 5 dias após a data atual).
 
-## Estrutura do Projeto
+## 📋 Índice
 
-```
+- [Funcionalidades](#✨-funcionalidades)
+- [Pré-requisitos](#🔧-pré-requisitos)
+- [Instalação](#🛠️-instalação)
+- [Configuração](#⚙️-configuração)
+- [Uso](#🚦-uso)
+- [Estrutura do Projeto](#📂-estrutura-do-projeto)
+- [Variáveis de Ambiente](#🌐-variáveis-de-ambiente)
+- [Contribuição](#🤝-contribuição)
+- [Licença](#📜-licença)
 
-/src
-├── verificarBoletos.js        # Código principal para consultar boletos via API
-├── package.json               # Configurações e dependências do Node.js
-├── .env                      # Arquivo para armazenar variáveis de ambiente (exemplo: URL da API, chaves)
-└── README.md                  # Este arquivo de documentação
+## ✨ Funcionalidades
 
-````
+- Consulta automatizada de boletos vencidos
+- Filtro por período customizável
+- Saída formatada para fácil interpretação
+- Configuração simplificada via variáveis de ambiente
 
----
+## 🔧 Pré-requisitos
 
-## Requisitos
+- Node.js 18.x ou superior
+- npm ou yarn
+- Acesso à API do SigeCloud
+- Credenciais de autenticação válidas
 
-- Node.js instalado (versão recomendada >= 14)
-- Internet para acessar a API do SigeCloud
-- Criar o arquivo `.env` com as configurações necessárias (exemplo abaixo)
-
----
-
-## Configuração
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/GabrielReWork/code.git
-   cd code/src
-````
-
-2. Instale as dependências:
-
-   ```bash
-   npm install
-   ```
-
-3. Crie o arquivo `.env` na raiz da pasta `src` com as variáveis de ambiente necessárias. Exemplo:
-
-   ```
-   SIGECLOUD_API_URL=https://api.sigecloud.com.br/endpoint
-   API_KEY=seu_token_aqui
-   ```
-
----
-
-## Como executar
-
-Para rodar o script que consulta os boletos vencidos, execute:
+## 🛠️ Instalação
 
 ```bash
-node verificarBoletos.js
-```
+# Clone o repositório
+git clone https://github.com/GabrielReWork/code.git
 
----
+# Acesse o diretório do projeto
+cd code/src
 
-## Observações
-
-* Este projeto foi desenvolvido para uso interno e não contém licença aberta.
-* O código é simples e pode ser adaptado conforme necessidade.
-* Para dúvidas, verificar diretamente no código ou solicitar mais informações.
-
-```
-
-Se quiser posso gerar o arquivo pronto para você também! Quer?
-```
+# Instale as dependências
+npm install
